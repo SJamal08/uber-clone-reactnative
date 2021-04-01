@@ -12,6 +12,7 @@ import {
 } from 'react-native';
 import DestinationSearch from './src/screens/DestinationSearch';
 import HomeScreen from './src/screens/HomeScreen';
+import SearchResults from './src/screens/SearchResults';
 
 
 
@@ -21,7 +22,8 @@ const App: () => React$Node = () => {
     <>
       <StatusBar barStyle="dark-content" />
       {/*<HomeScreen/>*/}
-      <DestinationSearch />
+      {/*<DestinationSearch />*/}
+      <SearchResults />
 
       </>
   );

@@ -14,13 +14,15 @@ const HomeMap = () => {
                 justifyContent: 'center',
                 alignItems: 'center',
             }} >
+
+                <Text>I'm a map</Text>
                 
             </View>
-            {/*Covid message*/}
-            <CovidMessage />
+            {/*Covid message <CovidMessage />*/}
+            
 
-            {/*Bottom Component */}
-            <HomeSearch/>
+            {/*Bottom Component <HomeSearch/> */}
+            
         </View>
     )
 }
