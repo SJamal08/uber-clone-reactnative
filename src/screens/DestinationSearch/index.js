@@ -29,7 +29,7 @@ const DestinationSearch = () => {
                   }}
                 fetchDetails
                 query={{
-                    key: 'YOUR_API_KEY',
+                    key: 'GOOGLE_API_KEY',
                     language: 'en',
                 }}
             />
@@ -45,7 +45,7 @@ const DestinationSearch = () => {
                   }}
                 fetchDetails
                 query={{
-                    key: 'AIzaSyDCJ8Aid-IvV49nPEiAVNdH5Z1SNHdK74Q',
+                    key: 'GOOGLE_API_KEY',
                     language: 'en',
                 }}
             />
