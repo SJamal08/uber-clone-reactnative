@@ -2,6 +2,7 @@
   package="com.exempleprojet">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
       android:name=".MainApplication"
@@ -13,7 +14,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="GOOGLE_API_KEY"/>
+            android:value="AIzaSyDCJ8Aid-IvV49nPEiAVNdH5Z1SNHdK74Q"/>
 
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
 
